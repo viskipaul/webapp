@@ -1,5 +1,5 @@
 button[type=submit]{
-    padding:10px;
+    padding:15px;
     color:#ffffff;
     font-weight: bold;
     background: #009578;
@@ -9,22 +9,13 @@ button[type=submit]{
     border-radius:5px;
     cursor:pointer;
 }
-/*
-#maindiv{
-    max-width:350px;
-    margin: 0 auto;
-    overflow: hidden;
-    text-align:center;
-    border-radius:5px;
-    box-shadow:0 0 15px rgba(0,0,0,0.15);
-}
-*/
 
 .login_form{
-    max-width: 350px;
+    max-width: 300px;
     margin: 0 auto;
     border-radius:5px;
     overflow:hidden;
+    box-sizing: border-box;
     box-shadow: 0 0 15px rgba(0,0,0,0.15);
 }
 
@@ -36,6 +27,18 @@ button[type=submit]{
 .login_content{
     padding:30px;
     background:#eeeeee;
+}
+
+.login_header{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333333;
+    margin-top: 15px;
+}
+
+.login_button{
+    margin:0 auto;
+    margin-top: 40px;
 }
 
 td{
@@ -59,7 +62,12 @@ input:focus{
     border-color: #009578;
 }
 
+input::placeholder{
+    color: #aaaaaa;
+}
+
 body{
+    margin-top: 70px;
     background-color:#009578;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
